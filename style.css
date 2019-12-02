@@ -18,13 +18,22 @@ p {
     color:orange;
 }
 
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
 .things {
     margin: 0;
     padding: 0; 
+    width: 100%;
 }
 
 .things li {
-    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+    width: calc(49% - 40px);
     height: 300px;
     display: inline-block;
 }
@@ -36,7 +45,7 @@ p {
 }
 
 .things .netflix {
-    background-image: url('images(2).jpeg');
+    background-image: url('images (2).jpeg');
     background-repeat: no-repeat;
     background-size: cover;
 }
