@@ -7,11 +7,9 @@ body{
 }    
 body.index{
    background-image: url('longnecker_printfileweb-28.jpg');
-   min-height: 100vh;
    background-position: center;
    background-size:cover;
    background-repeat: no-repeat;
-   margin: auto;
    color: black;
 
 }
