@@ -3,24 +3,63 @@ body{
     font-family: 'McLaren', cursive;
     font-size: 20px;
     max-width: 900px;
-    margin:0 auto;
+    margin:0 auto;    
+}
     
-    }
+h1 {
+    color: black;
+}
+
+p {
+    color: green; 
+}
+
+.orangeparagraph{
+    color:orange;
+}
+
+.things {
+    margin: 0;
+    padding: 0; 
+}
+
+.things li {
+    width: 50%;
+    height: 300px;
+    display: inline-block;
+}
+
+.things .soccer {
+    background-image: url('2232833_1_O.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.things .netflix {
+    background-image: url('images(2).jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.things .travel {
+    background-image: url('Traveling.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.things .cooking {
+    background-image: url('download.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+}
     
-    h1{color: black;
+@media screen and (max-width:700px){
+    body{
+        background:rgb(82, 32, 218);
     }
     p{
-        color: green; 
+        font-size: 30px;
     }
-    .orangeparagraph{
-        color:orange;
-    }
-    
-    @media screen and (max-width:700px){
-        body{
-            background:rgb(82, 32, 218);
-        }
-        p{
-            font-size: 30px;
-        }
-    }
+}
