@@ -1,26 +1,52 @@
-body{
-    background-color:pink;
-    font-family: 'McLaren', cursive;
-    font-size: 20px;
-    max-width: 900px;
-    margin:0 auto;
-}    
 body.index{
    background-image: url('longnecker_printfileweb-28.jpg');
-   background-position: center;
-   min-height: 100vh;
+   margin;: 0;
+   padding:0;
    background-size:cover;
    background-repeat: no-repeat;
-   color: black;
-
+}
+.box{
+    width:450px;
+    background: rgba(0,0,0,0.5);
+    padding:40px;
+    text-align:center;
+    margin:auto;
+    margin-top: 5%
+    color: white;
+    font-family: 'century gothic' , sans-serif;
+}
+.box-img{
+    border-radius: 50%;
+    width:200px;
+    height: 200px;
 }
 
-h1 {
-    color: black;
+.box h1 {
+    font-size:40px;
+    letter-spacing: 4px;
+    font-weight:100;
 }
 
 p {
+    text-align: justify;
     color: green; 
+}
+ul{
+    margin:0;
+    padding: 0;
+}
+.box li{
+    display: inline-block;
+    margin:6pz;
+    list-style:none;
+}
+.box li a{
+    color:white;
+    text-decoration:none;
+    font-size:60px;
+
+}
+
 }
 
 .orangeparagraph{
