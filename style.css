@@ -1,7 +1,6 @@
 body.index{
    background-image: url('longnecker_printfileweb-28.jpg');
    margin;: 0;
-   padding:0;
    background-size:cover;
    background-repeat: no-repeat;
 }
@@ -29,7 +28,7 @@ body.index{
 
 p {
     text-align: justify;
-    color: green; 
+    color: white; 
 }
 ul{
     margin:0;
@@ -37,20 +36,13 @@ ul{
 }
 .box li{
     display: inline-block;
-    margin:6pz;
+    margin:6px;
     list-style:none;
 }
 .box li a{
-    color:white;
+    color: rgb(15, 15, 15);
     text-decoration:none;
-    font-size:60px;
-
-}
-
-}
-
-.orangeparagraph{
-    color:orange;
+    font-size:40px;
 }
 
 nav ul li {
