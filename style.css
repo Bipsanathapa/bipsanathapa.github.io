@@ -1,19 +1,19 @@
-body.index{
-   background-image: url('longnecker_printfileweb-28.jpg');
-   margin: 0;
-   padding: 0;
-   background-size:cover;
-   background-repeat: no-repeat;
+body{
+    margin:0;
+    padding:0;
+    background: url('longnecker_printfileweb-28.jpg');
+    background-size:cover;
 }
+
 .box{
     width:450px;
     background: rgba(0,0,0,0.5);
     padding:40px;
     text-align:center;
     margin:auto;
-    margin-top: 5%
+    margin-top: 5%;
     color: white;
-    font-family: 'century gothic' , sans-serif;
+    
 }
 .box-img{
     border-radius: 50%;
@@ -37,13 +37,13 @@ ul{
 }
 .box li{
     display: inline-block;
-    margin:30px;
+    margin:6px;
     list-style:none;
 }
 .box li a{
-    color: rgb(15, 15, 15);
+    color: yellow (15, 15, 15);
     text-decoration:none;
-    font-size: 60px;
+    font-size: 40px;
 }
 
 nav ul li {
@@ -51,6 +51,34 @@ nav ul li {
     margin-right: 30px;
 }
 
+.post{
+  background-color: black ;
+  font-size: 14px;
+  font-color: white
+}
+#wrapper{ 
+    width: 800px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#header{
+    
+    height:80px;
+    widows: 100%;
+    margin:10px;
+}
+.post{
+    
+    padding : 5px;
+    border: 1px solid # cccccc;
+    margin-bottom:5px;
+}
+.about p{
+    color: brown;
+}
+
+
+}
 .things {
     margin: 0;
     padding: 0; 
