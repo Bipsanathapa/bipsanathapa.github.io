@@ -1,30 +1,49 @@
 body{
-    background-color:pink;
-    font-family: 'McLaren', cursive;
-    font-size: 20px;
-    max-width: 900px;
-    margin:0 auto;
-}    
-body.index{
-   background-image: url('longnecker_printfileweb-28.jpg');
-   background-position: center;
-   min-height: 100vh;
-   background-size:cover;
-   background-repeat: no-repeat;
-   color: black;
-
+    margin:0;
+    padding:0;
+    background: url('longnecker_printfileweb-28.jpg');
+    background-size:cover;
 }
 
-h1 {
-    color: black;
+.box{
+    width:450px;
+    background: rgba(0,0,0,0.5);
+    padding:40px;
+    text-align:center;
+    margin:auto;
+    margin-top: 5%;
+    color: white;
+    
+}
+.box-img{
+    border-radius: 50%;
+    width:200px;
+    height: 200px;
+}
+
+.box h1 {
+    font-size:40px;
+    letter-spacing: 4px;
+    font-weight:100;
 }
 
 p {
-    color: green; 
+    text-align: justify;
+    color: white; 
 }
-
-.orangeparagraph{
-    color:orange;
+ul{
+    margin:0;
+    padding: 0;
+}
+.box li{
+    display: inline-block;
+    margin:6px;
+    list-style:none;
+}
+.box li a{
+    color: yellow (15, 15, 15);
+    text-decoration:none;
+    font-size: 40px;
 }
 
 nav ul li {
@@ -32,6 +51,34 @@ nav ul li {
     margin-right: 30px;
 }
 
+.post{
+  background-color: black ;
+  font-size: 14px;
+  font-color: white
+}
+#wrapper{ 
+    width: 800px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#header{
+    
+    height:80px;
+    widows: 100%;
+    margin:10px;
+}
+.post{
+    
+    padding : 5px;
+    border: 1px solid # cccccc;
+    margin-bottom:5px;
+}
+.about p{
+    color: brown;
+}
+
+
+}
 .things {
     margin: 0;
     padding: 0; 
