@@ -1,10 +1,26 @@
-body{
+body {
+    min-height: 100vh;
     margin:0;
     padding:0;
-    background: url('longnecker_printfileweb-28.jpg');
-    background-size:cover;
+    background-size: cover;
 }
 
+body.index {
+    background-image: url('longnecker_printfileweb-28.jpg');
+    background-repeat:no-repeat;
+    background-size: 150% 100%;
+}
+
+body.about{
+    background: url('12816888-white-beautiful-wedding-background.jpg');
+   
+}
+body.blog{
+   background-color: rgb(143, 141, 141);
+}
+body.article{
+    background: url('161d486cb034cd71230e9c66d44a3756.jpg')
+}
 .box{
     width:450px;
     background: rgba(0,0,0,0.5);
@@ -29,7 +45,7 @@ body{
 
 p {
     text-align: justify;
-    color: white; 
+    color: brown; 
 }
 ul{
     margin:0;
@@ -54,7 +70,7 @@ nav ul li {
 .post{
   background-color: black ;
   font-size: 14px;
-  font-color: white
+  color: white
 }
 #wrapper{ 
     width: 800px;
@@ -70,15 +86,13 @@ nav ul li {
 .post{
     
     padding : 5px;
-    border: 1px solid # cccccc;
+    border: 1px solid #cccccc;
     margin-bottom:5px;
 }
 .about p{
     color: brown;
 }
 
-
-}
 .things {
     margin: 0;
     padding: 0; 
@@ -116,8 +130,6 @@ nav ul li {
     background-image: url('download.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
-}
-
 }
     
 @media screen and (max-width:700px){
